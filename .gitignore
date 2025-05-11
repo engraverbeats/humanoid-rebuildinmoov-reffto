@@ -1,0 +1,51 @@
+
+# ROS build and log files
+build/
+devel/
+log/
+*.launch.pyc
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.so
+
+# VSCode settings
+.vscode/
+
+# Jetson or hardware-specific logs/cache
+*.nvs
+*.engine
+*.onnx
+*.trt
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Environment/venv
+env/
+venv/
+*.env
+
+# Compiled objects
+*.o
+*.out
+*.a
+*.lo
+*.la
+*.class
+
+# Backup files
+*~
+*.swp
+*.bak
+
+# Credentials or API keys (just in case)
+*.key
+*.pem
+*.crt
+
+# Models
+models/*.engine
+models/*.onnx

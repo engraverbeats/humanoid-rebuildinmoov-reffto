@@ -1,0 +1,8 @@
+numpy
+opencv-python
+rospy
+tensorflow
+scikit-learn
+speechrecognition
+pyttsx3
+tensorrt

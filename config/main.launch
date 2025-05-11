@@ -1,0 +1,5 @@
+<launch>
+    <node pkg="inmoov_robot" type="voice_ai_node.py" name="voice_ai_node" output="screen"/>
+    <node pkg="inmoov_robot" type="arm_controller.py" name="arm_controller" output="screen"/>
+    <node pkg="inmoov_robot" type="eye_tracking.py" name="eye_tracking" output="screen"/>
+</launch>
